@@ -1,0 +1,96 @@
+.blue-checkbox, .grey-checkbox, .green-checkbox, .red-checkbox, .checkbox-blue2, .green-checkbox2, .checkbox-blue3 {
+	padding: 40px
+}
+
+input[type="radio"], input[type="checkbox"] {
+	display: none;
+}
+
+input[type="radio"] + label span, input[type="checkbox"] + label span {
+	display: inline-block;
+}	
+
+input[type="checkbox"] + label.chechbox-cube  span {
+	background: url(../img/check_radio_sheet.png);
+	height: 20px;
+	width: 18px
+}
+
+input[type="checkbox"]:checked + label.chechbox-cube  span {
+	background-position-x: 56px
+}
+
+.checkbox-radio, .checkbox {
+	float: left
+}
+
+input[type="radio"] + label.radio-button  span {
+	background: url(../img/check_radio_sheet.png);
+	background-position-x: 37px;
+    height: 20px;
+    width: 17px;
+}
+
+input[type="radio"]:checked + label.radio-button  span {
+	background-position-x: 18px;
+}
+
+input[type="checkbox"] + label.grey-box span {
+	background: url(../img/greycheckbox.png);
+    height: 18px;
+    width: 17px;
+}
+
+input[type="checkbox"]:checked + label.grey-box span  {
+	background-position-y: 17px
+}
+
+input[type="checkbox"] + label.green-box span {
+	background: url(../img/greenbox.png);
+	height: 30px;
+	width: 30px	
+}
+
+input[type="checkbox"]:checked + label.green-box span {
+	background-position-y: 30px
+}
+
+input[type="checkbox"] + label span {
+	background: url(../img/lite-x-red.png);
+	height: 15px;
+	width: 15px
+}
+
+input[type="checkbox"]:checked + label.red-box span  {
+	background-position-y: 15px
+}
+
+input[type="checkbox"] + label.blue-box span {
+	background: url(../img/checkbox-blue2.png);
+	height: 24px;
+	width: 24px
+}
+
+input[type="checkbox"]:checked + label.blue-box span  {
+	background-position-y: 24px
+}
+
+input[type="checkbox"] + label.green-box2 span {
+	background: url(../img/oval-greenbox.png);
+	height: 23px;
+	width: 23px
+}
+
+input[type="checkbox"]:checked + label.green-box2 span  {
+	background-position-y: 23px
+}
+
+input[type="checkbox"] + label.blue-box3 span {
+	background: url(../img/blue-box.png);
+	height: 18px;
+	width: 18px
+}
+
+input[type="checkbox"]:checked + label.blue-box3 span {
+	background-position-y: 18px
+}
